@@ -1,0 +1,170 @@
+/* =================================
+      For Dashboard Settings Area
+   ================================= */
+.containermake{
+    display: grid;
+    grid-template-columns: 400px auto;
+}
+
+
+.lld-settingsarea {
+    padding-top: 60px;
+    padding-bottom: 40px;
+
+
+}
+
+.bg-white {
+    background: #ffffff;
+    padding: 25px;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
+
+
+}
+
+.lld-astitle {
+    margin: -25px;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    h3 {
+        margin-left: 25px;
+        padding: 25px 0;
+        color: #7e7e7e;
+        font-size: 26px;
+        display: block;
+    }
+}
+
+.lld-profileimgarea {
+    background-color: #43A047;
+    display: grid;
+    justify-content: center;
+    grid-template-rows:auto auto ;
+    margin-bottom: 30px;
+    .lld-profileimg {
+        img {
+            width: 250px;
+            height: 300px;
+            border:5px solid #e3e6ee;
+            object-fit: cover;
+           margin-top: 30px;
+            cursor: pointer;
+        }
+    }
+
+    .lld-profilecaption {
+        h4 {
+            justify-self: center;
+            font-size: 22px;
+            font-weight: 400;
+            color: #ffffff;
+        }
+        p {
+            font-size: 10px;
+            font-weight: lighter;
+            color: #929292;
+        }
+    }
+}
+
+/*****************************************
+  upload button styles
+******************************************/
+.profile-img-upload {
+    position: relative;
+    display: inline-block;
+}
+
+.profile-upload-label {
+    display: block;
+    padding: 0.375em 0.5em;
+    background: #efefef;
+    color: #929292;
+    border-radius: 0.2em;
+    transition: background 0.3s;
+    cursor: pointer;
+
+    &:hover {
+        cursor: pointer;
+        background: darken(#efefef, 10%);
+    }
+}
+
+.profile-upload-input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 100%;
+    opacity: 0;
+}
+
+
+
+
+
+
+.ld-settingsform{
+    display: grid;
+
+}
+
+#lld-settingsform {
+    input[type="text"] {
+        &:focus {
+            outline: 0;
+        }
+    }
+
+    textarea {
+        align-items: flex-start;
+        background: #efefef;
+        border: none;
+        border-radius: 2px;
+        margin-left: 30px;
+
+
+    }
+    input {
+        background: #efefef;
+        font-size: 16px;
+        letter-spacing: 1px;
+        border: none;
+        border-radius: 2px;
+        padding: 15px 10px;
+        margin-bottom: 25px;
+        &:focus {
+        }
+    }
+    label {
+        color: #929292;
+        font-size: 16px;
+        font-weight: lighter;
+        padding-bottom: 5px;
+        margin-left: 50px;
+    }
+}
+
+.lld-savebtn {
+    margin-top: 30px;
+
+    a {
+        transition: all 0.6s ease-in-out;
+        text-decoration: none;
+        background: #e3e6ee;
+        display: block;
+        color: #8c909c;
+        padding: 10px 0;
+        font-size: 18px;
+        letter-spacing: 2px;
+        &:hover {
+            background: darken(#e3e6ee, 15%);
+            text-decoration: none;
+            color: #ffffff;
+        }
+    }
+}
+
+/*End Dashboard Settings Area*/
